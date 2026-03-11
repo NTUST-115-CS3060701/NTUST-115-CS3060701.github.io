@@ -1,0 +1,43 @@
+site_name: CS3060701 系統開發實務
+
+theme:
+  favicon: images/favicon.png
+  name: material
+  palette:
+    primary: teal
+  features:
+    - navigation.expand
+    - navigation.path
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    - toc.follow
+    - toc.hide
+    - toc.integrate
+
+markdown_extensions:
+  - nl2br
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.blocks.admonition
+  - pymdownx.blocks.caption
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - tables
+  - md_in_html
+  - footnotes
+
+extra_css:
+  - css/mkdocsoad.css
+  - css/table.css
+  - css/custom.css
+
