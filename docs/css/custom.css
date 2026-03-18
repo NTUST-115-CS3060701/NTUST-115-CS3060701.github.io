@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+TC:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+.md-ellipsis {
+  font-size: 14px;
+  margin-bottom: 0.35rem;
+}
+
+.md-typeset {
+  font-family: "Noto Sans TC", "Noto Sans", Inter !important;
+}
+
+code,
+pre {
+  font-family: "JetBrains Mono", monospace !important;
+}
+
+@font-face {
+  font-family: "Sarasa Mono TC";
+  src: url("SarasaMonoTC-Regular.ttf") format("truetype");
+}
+
+.launch-example.highlight > pre > code {
+  font-family: "Sarasa Mono TC", monospace !important;
+}
+
+.required code {
+  font-weight: 900;
+  color: rgba(46, 114, 46, 0.801);
+  background-color: transparent;
+}
+
+.optional code {
+  font-weight: 900;
+  color: rgba(185, 30, 30, 0.801);
+  background-color: transparent;
+}
+
+.condition code {
+  font-weight: 900;
+  background-color: transparent;
+  color: rgba(117, 20, 214, 0.86);
+}
+
+.object code {
+  font-weight: bold;
+  background-color: transparent;
+  color: rgba(22, 86, 206, 0.801);
+}

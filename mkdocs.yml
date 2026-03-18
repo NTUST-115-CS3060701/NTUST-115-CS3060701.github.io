@@ -1,4 +1,5 @@
 site_name: CS3060701 系統開發實務
+site_url: https://NTUST-115-CS3060701.github.io/NTUST-115-CS3060701
 
 theme:
   favicon: images/favicon.png
@@ -41,3 +42,25 @@ extra_css:
   - css/table.css
   - css/custom.css
 
+nav:
+  - index.md
+  - API:
+    - api/what-is-api.md
+    - api/restful.md
+  - 認證與授權:
+    - auth/1-authn-and-authz.md
+    - auth/2-trust-boundary.md
+    - auth/3-identity-principal.md
+    - auth/4-acl.md
+    - auth/5-rbac.md
+    - auth/6-abac.md
+    - auth/7-scope-and-claim-aud.md
+  - 授權載體:
+    - token/README.md
+    - token/1-jwt.md
+    - token/2-opaque-token.md
+    - token/3-access-token.md
+    - token/4-refresh-token.md
+    - token/5-token-management.md
+    - token/5-1-token-lifecycle.md
+    - token/5-2-token-revocation.md
